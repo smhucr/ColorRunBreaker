@@ -8,7 +8,7 @@ using TMPro;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
-    public AdsManager adsManager;
+    //public AdsManager adsManager;
     public ObjectsPool objectsPool;
     public bool gameOver;
     public bool startGame;
