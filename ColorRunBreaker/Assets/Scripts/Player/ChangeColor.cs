@@ -8,7 +8,7 @@ public class ChangeColor : MonoBehaviour
 
     public Material playerMaterial;
     //public Material[] allMaterials;
-    public GameObject particleEffect;
+    //public GameObject particleEffect;
 
     private void OnTriggerEnter(Collider other)
     {
