@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Bullet
+  - BluePot
+  - GreenPot
+  - RedPot
   layers:
   - Default
   - TransparentFX
