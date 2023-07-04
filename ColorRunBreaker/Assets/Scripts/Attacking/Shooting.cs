@@ -22,6 +22,7 @@ public class Shooting : MonoBehaviour
         {
             var obj = objectPool.GetPooledObject(objectType);
             obj.transform.position = bulletPoint.position;
+            GameManager.instance.audioSource.PlayOneShot(GameManager.instance.audioClips[0], 0.1f);
             StartCoroutine(Disableobj(obj));
         }
         yield return new WaitForSeconds(GameManager.instance.fireRate);

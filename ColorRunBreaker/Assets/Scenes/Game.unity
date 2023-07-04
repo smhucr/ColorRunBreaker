@@ -1968,6 +1968,7 @@ GameObject:
   - component: {fileID: 172719393}
   - component: {fileID: 172719392}
   - component: {fileID: 172719391}
+  - component: {fileID: 172719394}
   m_Layer: 0
   m_Name: PlayerController
   m_TagString: Untagged
@@ -2025,6 +2026,102 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &172719394
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172719390}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 17.316582
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &172817274
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3161,7 +3258,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 299140071}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1514778743}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: NewLevelLoader
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &299140071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5593,7 +5702,7 @@ MonoBehaviour:
   pools:
   - objectPrefab: {fileID: 1785723959065356618, guid: d6e3e6b5ad707a942989fbdfd10a1bcc,
       type: 3}
-    poolSize: 20
+    poolSize: 40
   - objectPrefab: {fileID: 7924185050306971846, guid: 57abcd8df3a414d43b417f46711ef328,
       type: 3}
     poolSize: 3
@@ -7166,7 +7275,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 693973706}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1514778743}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: FireRateIncreaser
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &693973706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15984,6 +16105,10 @@ MonoBehaviour:
   arrows:
   - {fileID: 387135380}
   - {fileID: 1241045132}
+  audioSource: {fileID: 172719394}
+  audioClips:
+  - {fileID: 8300000, guid: ef9500200951237419c0b9635b74709e, type: 3}
+  - {fileID: 8300000, guid: 4e3d7dc553714474089c68532074611f, type: 3}
   playAnimation: {fileID: 1593198615}
   playerGun: {fileID: 2451432921170057125}
   currentMoney: 0
@@ -19937,7 +20062,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1866792257}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1514778743}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: DamageIncreaser
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1866792257
 MonoBehaviour:
   m_ObjectHideFlags: 0

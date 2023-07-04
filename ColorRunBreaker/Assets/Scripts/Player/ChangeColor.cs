@@ -42,6 +42,7 @@ public class ChangeColor : MonoBehaviour
             }
 
 
+            GameManager.instance.audioSource.PlayOneShot(GameManager.instance.audioClips[1], 1.5f);
 
         }
 

@@ -18,6 +18,9 @@ public class GameManager : MonoBehaviour
     public GameObject[] finishGameUI;
     public TextMeshProUGUI levelText;
     public GameObject[] arrows;
+    [Header("Sound")]
+    public AudioSource audioSource;
+    public AudioClip[] audioClips; 
     [Header("Animation")]
     public PlayAnimation playAnimation;
     [Header("Gun")]
