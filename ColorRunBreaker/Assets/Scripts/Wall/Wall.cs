@@ -38,7 +38,7 @@ public class Wall : MonoBehaviour
                 }
                 else
                 {
-                    if (scoreHealth - GameManager.instance.damage < 0)
+                    if (scoreHealth - GameManager.instance.damage <= 0)
                     {
                         scoreHealth = GameManager.instance.damage - scoreHealth;
                         gameObject.GetComponent<Renderer>().sharedMaterial = wallMaterials[PlayerPrefs.GetInt("PlayerMaterial")];
@@ -64,7 +64,7 @@ public class Wall : MonoBehaviour
                 }
                 else
                 {
-                    if (scoreHealth - GameManager.instance.damage < 0)
+                    if (scoreHealth - GameManager.instance.damage <= 0)
                     {
                         scoreHealth = GameManager.instance.damage - scoreHealth;
                         gameObject.GetComponent<Renderer>().sharedMaterial = wallMaterials[PlayerPrefs.GetInt("PlayerMaterial")];
@@ -91,7 +91,7 @@ public class Wall : MonoBehaviour
                 }
                 else
                 {
-                    if (scoreHealth - GameManager.instance.damage < 0)
+                    if (scoreHealth - GameManager.instance.damage <= 0)
                     {
                         scoreHealth = GameManager.instance.damage - scoreHealth;
                         gameObject.GetComponent<Renderer>().sharedMaterial = wallMaterials[PlayerPrefs.GetInt("PlayerMaterial")];
