@@ -27,7 +27,7 @@ public class StartGameController : MonoBehaviour
             if (results.Count == 0 && !GameManager.instance.startGame)
             {
                 GameManager.instance.StartGame();
-                //GameManager.instance.adsManager.ShowInterstitialAd();
+                GameManager.instance.adsManager.ShowInterstitialAd();
             }
             foreach (RaycastResult result in results)
             {
