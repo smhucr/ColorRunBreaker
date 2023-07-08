@@ -4841,7 +4841,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c82134fd099f39449aa4a76fb6087e9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensivity: 0.018
+  sensivity: 0.006
   player: {fileID: 172719392}
 --- !u!65 &430739719
 BoxCollider:
@@ -7899,7 +7899,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c3399ffa019bbe9479e409eaf88f174a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -29.9
+      value: -32.97
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c3399ffa019bbe9479e409eaf88f174a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -8834,7 +8834,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &832575518
 MonoBehaviour:
   m_ObjectHideFlags: 0
