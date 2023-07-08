@@ -118,6 +118,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenPotion
       objectReference: {fileID: 0}
+    - target: {fileID: 8289861245159219815, guid: 57206601dd366724b9199d1b5bc7cff5,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1ba2bf608efac0f459edc48024b00290, type: 2}
+    - target: {fileID: 8289861245159219815, guid: 57206601dd366724b9199d1b5bc7cff5,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0c398dff3902ace4dbadeebcedb9558b, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 57206601dd366724b9199d1b5bc7cff5, type: 3}
 --- !u!1 &7238115026299219750 stripped
@@ -280,6 +290,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2147057285589554772, guid: 120b64059a164fa4c8a1675ff054b254,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1ba2bf608efac0f459edc48024b00290, type: 2}
+    - target: {fileID: 2147057285589554772, guid: 120b64059a164fa4c8a1675ff054b254,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0c398dff3902ace4dbadeebcedb9558b, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 120b64059a164fa4c8a1675ff054b254, type: 3}
 --- !u!1 &7238115026124668823 stripped

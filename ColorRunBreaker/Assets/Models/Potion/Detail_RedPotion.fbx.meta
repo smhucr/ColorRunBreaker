@@ -3,7 +3,22 @@ guid: 38a6e8c013dbdc94781450512cbcada6
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CorkColor
+    second: {fileID: 2100000, guid: d104464b70131f942955b12f58998929, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Potion_Red
+    second: {fileID: 2100000, guid: ded7d26b2bac5424a9fbcc1da71746f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass
+    second: {fileID: 2100000, guid: 6d9f68fd2b9b32f43ab6386b611e8cec, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
