@@ -8,7 +8,7 @@ public class AdsManager : MonoBehaviour
 
     private BannerView bannerView;
 #if UNITY_ANDROID
-    private string bannerID = "ca-app-pub-3940256099942544/6300978111";
+    private string bannerID = "ca-app-pub-7263574311319267/8664891566";
 #elif UNITY_IPHONE
   private string bannerID = "ca-app-pub-3940256099942544/2934735716";
 #else
@@ -19,7 +19,7 @@ public class AdsManager : MonoBehaviour
 
     private InterstitialAd interstitialAd;
 #if UNITY_ANDROID
-    private string interstitialID = "ca-app-pub-3940256099942544/1033173712";
+    private string interstitialID = "ca-app-pub-7263574311319267/5355383709";
 #elif UNITY_IPHONE
   private string interstitialID = "ca-app-pub-3940256099942544/4411468910";
 #else
