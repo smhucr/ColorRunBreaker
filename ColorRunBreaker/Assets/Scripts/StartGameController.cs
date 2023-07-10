@@ -23,11 +23,12 @@ public class StartGameController : MonoBehaviour
 
             List<RaycastResult> results = new List<RaycastResult>();
             m_Raycaster.Raycast(m_PointerEventData, results);
-            
+
             if (results.Count == 0 && !GameManager.instance.startGame)
             {
                 GameManager.instance.StartGame();
-                GameManager.instance.adsManager.ShowInterstitialAd();
+                if (PlayerPrefs.GetInt("Level") % 2 == 0)
+                    GameManager.instance.adsManager.ShowInterstitialAd();
             }
             foreach (RaycastResult result in results)
             {
