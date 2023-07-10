@@ -1,0 +1,12 @@
+Potion Groups the difference between potions => Z , 25
+Wall Groups the difference between wall => Z , 25
+
+Level-1
+
+Potions 1,1 - 1,1 - 2, 0 1 - 0 - 3,0 1 2 - 1,1 - 1,0
+Walls 2,0 1 - 2, 0 2 - 1,1 - 2, 1 2 - 3,0 1 2 - 2, 1 2 - 3**3
+
+Level-2
+
+Potions 2, 0 2 - 3, 0 1 2 - 1,1 - 2,0 1 - 0 - 1,2
+Walls 
