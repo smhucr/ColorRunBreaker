@@ -4708,7 +4708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c82134fd099f39449aa4a76fb6087e9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensivity: 0.018
+  sensivity: 0.006
   player: {fileID: 172719392}
 --- !u!65 &430739719
 BoxCollider:
@@ -17129,6 +17129,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1606368208
 PrefabInstance:
   m_ObjectHideFlags: 0
