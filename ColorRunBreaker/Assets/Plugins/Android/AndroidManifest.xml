@@ -10,7 +10,11 @@
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.LAUNCHER" />
 			</intent-filter>
-			<meta-data android:name="unityplayer.UnityActivity" android:value="true" />
+			<meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-7263574311319267~8240250116" />
+			<meta-data android:name="com.google.android.gms.ads.DELAY_APP_MEASUREMENT_INIT" android:value="true" />
+			<meta-data android:name="com.google.android.gms.ads.AD_MANAGER_APP" android:value="true" />
+
 		</activity>
 	</application>
+	<uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
 </manifest>
